@@ -1,6 +1,3 @@
-import ATM;
-
-package Business_logic;
 // ATMCaseStudy.java
 // Driver program for the ATM case study
 
