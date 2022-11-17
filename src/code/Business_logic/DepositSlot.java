@@ -1,15 +1,16 @@
-// ATMCaseStudy.java
-// Driver program for the ATM case study
+package code.Business_logic;
+// DepositSlot.java
+// Represents the deposit slot of the ATM
 
-public class ATMCaseStudy
+public class DepositSlot 
 {
-   // main method creates and runs the ATM
-   public static void main( String[] args )
+   // indicates whether envelope was received (always returns true, 
+   // because this is only a software simulation of a real deposit slot)
+   public boolean isEnvelopeReceived()
    {
-      ATM theATM = new ATM();    
-      theATM.run();
-   } // end main
-} // end class ATMCaseStudy 
+      return true; // deposit envelope was received
+   } // end method isEnvelopeReceived
+} // end class DepositSlot
 
 
 

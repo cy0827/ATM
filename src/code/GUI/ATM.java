@@ -1,3 +1,9 @@
+package code.GUI;
+import code.Business_logic.DepositSlot;
+import code.Business_logic.Transaction;
+import code.Database.BankDatabase;
+import code.Business_logic.*;
+
 // ATM.java
 // Represents an automated teller machine
 

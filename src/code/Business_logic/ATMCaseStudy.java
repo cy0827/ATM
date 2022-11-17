@@ -1,26 +1,17 @@
-// Screen.java
-// Represents the screen of the ATM
+package code.Business_logic;
+import code.GUI.*;
+// ATMCaseStudy.java
+// Driver program for the ATM case study
 
-public class Screen
+public class ATMCaseStudy
 {
-   // displays a message without a carriage return
-   public void displayMessage( String message ) 
+   // main method creates and runs the ATM
+   public static void main( String[] args )
    {
-      System.out.print( message ); 
-   } // end method displayMessage
-
-   // display a message with a carriage return
-   public void displayMessageLine( String message ) 
-   {
-      System.out.println( message );   
-   } // end method displayMessageLine
-
-   // display a dollar amount
-   public void displayDollarAmount( double amount )
-   {
-      System.out.printf( "$%,.2f", amount );   
-   } // end method displayDollarAmount 
-} // end class Screen
+      ATM theATM = new ATM();    
+      theATM.run();
+   } // end main
+} // end class ATMCaseStudy 
 
 
 

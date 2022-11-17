@@ -1,3 +1,7 @@
+package code.GUI;
+import code.Business_logic.*;
+import code.Database.BankDatabase;
+
 // Deposit.java
 // Represents a deposit ATM transaction
 
