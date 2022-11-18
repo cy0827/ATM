@@ -31,7 +31,7 @@ public class Withdrawal extends Transaction
    public void execute()
    {
       boolean cashDispensed = false; // cash was not dispensed yet
-      double availableBalance; // amount available for withdrawal
+      Euro availableBalance; // amount available for withdrawal
 
       // get references to bank database and screen
       BankDatabase bankDatabase = getBankDatabase(); 
