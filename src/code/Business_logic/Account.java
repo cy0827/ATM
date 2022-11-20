@@ -11,12 +11,12 @@ public class Account
 
    // Account constructor initializes attributes
    public Account( int theAccountNumber, int thePIN, 
-      Euro theAvailableBalance, Euro theTotalBalance )
+      Euro d, Euro e )
    {
       accountNumber = theAccountNumber;
       pin = thePIN;
-      availableBalance = theAvailableBalance;
-      totalBalance = theTotalBalance;
+      availableBalance = d;
+      totalBalance = e;
    } // end Account constructor
 
    // determines whether a user-specified PIN matches PIN in Account

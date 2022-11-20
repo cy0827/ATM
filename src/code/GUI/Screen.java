@@ -19,10 +19,12 @@ public class Screen
    } // end method displayMessageLine
 
    // display a dollar amount
-   public void displayDollarAmount( Euro totalBalance )
+   public void displayDollarAmount( Euro amount )
    {
-      System.out.printf( "$%,.2f", totalBalance );   
+      long cash=amount.getValore();
+      System.out.printf( "$%,.2f", (double)cash/100 );   
    } // end method displayDollarAmount 
+
 } // end class Screen
 
 
