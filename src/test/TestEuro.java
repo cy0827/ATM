@@ -7,7 +7,7 @@ import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
-import code.Business_logic.*;;
+import code.Business_logic.*;
 
 public class TestEuro {
     Euro testEuro;
